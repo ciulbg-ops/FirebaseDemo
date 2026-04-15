@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aydin.firebasedemo.WelcomeController">
+   <children>
+      <Button fx:id="registerButton" layoutX="205.0" layoutY="188.0" mnemonicParsing="false" onAction="#registerButtonClicked" text="Register" />
+      <Button fx:id="signInButton" layoutX="300.0" layoutY="188.0" mnemonicParsing="false" onAction="#signInButtonClicked" text="Sign In" />
+      <Label layoutX="251.0" layoutY="56.0" text="Welcome" />
+      <PasswordField fx:id="passwordField" layoutX="205.0" layoutY="138.0" promptText="Password" />
+      <TextField fx:id="emailTextField" layoutX="205.0" layoutY="107.0" promptText="Email" />
+   </children>
+</AnchorPane>
